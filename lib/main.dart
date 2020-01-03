@@ -8,10 +8,7 @@ void main() => runApp(
               backgroundColor: Colors.blueGrey[900],
             ),
             body: Center(
-              child: Image(
-                image: NetworkImage(
-                    'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
-              ),
+              child: Image(image: AssetImage('images/logo.png')),
             )),
       ),
     );

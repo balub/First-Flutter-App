@@ -8,7 +8,9 @@ void main() => runApp(
               backgroundColor: Colors.blueGrey[900],
             ),
             body: Center(
-              child: Image(image: AssetImage('images/logo.png')),
+              child: Image(
+                image: AssetImage('images/logo.png'),
+              ),
             )),
       ),
     );
